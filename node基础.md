@@ -187,6 +187,19 @@ db.student.update({"name": "璇",{$unset:{age:1}}})
 ```
 db.student.updateMany({"sex":"男"},{$set:{hobby:"学习"}})
 ```
+## express
+**express.js框架是目前最流行的node.js后端框架之一,相当于jQuery和js之间的关系**
+**express不对node.js已有的特性进行二次抽象,我们只是在它之上扩展了Web应用的基本功能**
+**功能类型的后端框架`Koa.js``egg.js``hapi.js`**
+### 安装express [参考网站](http://www.expressjs.com.cn/)
+```
+npm init (第一步)
+```
+```
+npm install express --save
+```
+
+
 
 
 

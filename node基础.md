@@ -198,7 +198,19 @@ npm init (第一步)
 ```
 npm install express --save
 ```
-
+## express应用生成器
+### * 通过应用生成器工具express可以快速创建一个应用的骨架
+### * 安装`npm install express-generator -g`
+### * 常用操作
+#### * express -h : h选项可以列出所有可用的命令行选项
+#### * 安装所有依赖包: npm install
+### * 设置视图模板
+#### * `express --view=ejs demo1`
+### * 启动应用
+#### * MacOS或Linux平台:`DEBUG=myapp npm start`
+#### * windows: window 下cmd.exe 启动方式`set DEBUG=myapp & npm start`window 下 PowerShell 启动方式`set DEBUG=Geogty ; npm start  `
+### * 通过express应用生成器创建的应用一般都有如下目录
+#### * 
 
 
 
